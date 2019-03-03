@@ -19,7 +19,7 @@ function add2(n) {
   return parseInt(n, 10) + two
 }
 
-var theFunk = funkyFunction() {
+var tfunkyFunction = function() {
   return function() {
     return "FUNKY!"
   }
@@ -27,4 +27,5 @@ var theFunk = funkyFunction() {
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
-var theFunk = funkyFunction
+var theFunk = funkyFunction()
+theFunk = theFunk()
