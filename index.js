@@ -19,7 +19,7 @@ function add2(n) {
   return parseInt(n, 10) + two
 }
 
-var funkyFunction = function() {
+var theFunk = funkyFunction() {
   return function() {
     return "FUNKY!"
   }
